@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #b36161, #a11f1f); /* Gradient background */
+}
+
+#todo {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px; /* Increased padding */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Increased box shadow */
+    width: 400px; /* Set width */
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+#contain {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#login {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#register {
+    background-color: #f0f0f0;
+    color: #4CAF50;
+    border: 1px solid #4CAF50;
+}
